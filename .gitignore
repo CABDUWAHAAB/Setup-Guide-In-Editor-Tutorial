@@ -24,3 +24,7 @@ Recordings/
 *.log
 sysinfo.txt
 crashlytics-build.properties
+
+# Embedded package editor tooling is source code, not generated build output.
+!Packages/com.coplaydev.unity-mcp/Editor/Tools/Build/
+!Packages/com.coplaydev.unity-mcp/Editor/Tools/Build/**
